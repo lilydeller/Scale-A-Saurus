@@ -1,40 +1,17 @@
-[
-    {
-      "id": "31817487-6b4c-4b70-aa81-0e0b583c7727",
-      "name": "Piano",
-      "notes": ["C", "D", "E", "F", "G", "A", "B"],
-      "flashcards": [
-        {
-          "id": "ae6a020a-b60f-462e-a0ee-acec9ad56d77",
-          "question": "Which key is middle C?",
-          "answer": "C4"
-        },
-        {
-          "id": "4b189689-cd64-4b6a-8d88-4b857a1fe7d5",
-          "question": "What note is a whole step above C?",
-          "answer": "D"
-        }
-      ],
-      "recordings": [],
-      "piano": {
-        "id": "4a398902-4ed0-4559-b5e1-a4b52fc71a84",
-        "keys": ["C", "D", "E", "F", "G", "A", "B"],
-        "activeKeys": [],
-        "octave": 4,
-        "volume": 5,
-        "isRecording": false,
-        "recordedNotes": [],
-        "functions": {
-          "pressKey": "(Key key) -> void",
-          "releaseKey": "(Key key) -> void",
-          "toggleSustain": "() -> void",
-          "changeOctave": "(int newOctave) -> void",
-          "adjustVolume": "(int newVolume) -> void",
-          "startRecording": "() -> void",
-          "stopRecording": "() -> void",
-          "playRecording": "() -> void",
-          "clearRecording": "() -> void"
+{
+    "instrument.json": [
+      {
+        "id": "31817487-6b4c-4b70-aa81-0e0b583c7727",
+        "name": "Piano",
+        "notes": ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"],
+        "piano": {
+          "id": "4a398902-4ed0-4559-b5e1-a4b52fc71a84",
+          "keys": ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"],
+          "activeKeys": [],
+          "octave": 4,
+          "volume": 5
         }
       }
-    }
-  ]
+    ]
+  }
+  
